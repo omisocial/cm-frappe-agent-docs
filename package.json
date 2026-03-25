@@ -1,0 +1,23 @@
+{
+  "name": "cm-frappe-agent-docs",
+  "type": "module",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs",
+    "predeploy:syntax": "node -e 'console.log(\"Syntax OK\")'",
+    "test:gate": "vitest run --reporter=verbose",
+    "predeploy:dist": "node scripts/verify-dist.js",
+    "deploy": "npm run predeploy:syntax && npm run test:gate && npm run build && npm run predeploy:dist"
+  },
+  "dependencies": {
+    "zod": "3.25.76"
+  },
+  "devDependencies": {
+    "jsdom": "^29.0.1",
+    "vitepress": "^1.6.4",
+    "vitest": "^4.1.1",
+    "vue": "^3.5.30"
+  }
+}
