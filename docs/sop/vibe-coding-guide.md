@@ -119,4 +119,4 @@ flowchart TD
 *Text fallback:* Developer mô tả yêu cầu → SKILL.md điều phối đúng Agent → Agent dùng CLI để tương tác Frappe Site + viết code theo 7-Layer → Test & Verify.
 
 ---
-[← Hướng dẫn SOP](user-guide.md) · [Trang Chủ →](../README.md)
+[← Hướng dẫn SOP](user-guide.md) · [Trang Chủ →](../index.md)

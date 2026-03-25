@@ -146,4 +146,4 @@ frappe-dev-master/
 ```
 
 ---
-[← Trang Chủ](README.md) · [Danh mục Agents →](agents-catalog.md)
+[← Trang Chủ](index.md) · [Danh mục Agents →](index.md)

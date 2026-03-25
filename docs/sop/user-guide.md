@@ -175,4 +175,4 @@ robots: "index, follow"
 | Git/CI/CD | GitHub Workflow |
 
 ---
-[← Tài liệu Tham khảo](../resources-catalog.md) · [Vibe Coding Guide →](vibe-coding-guide.md)
+[← Tài liệu Tham khảo](../index.md) · [Vibe Coding Guide →](vibe-coding-guide.md)
