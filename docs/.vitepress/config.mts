@@ -90,6 +90,7 @@ export default defineConfig({
       {
         text: 'Hướng dẫn SOP',
         items: [
+          { text: 'Hướng dẫn Gọi Ai Agent', link: '/sop/using-frappe-agents' },
           { text: 'Hướng dẫn Sử dụng', link: '/sop/user-guide' },
           { text: 'Vibe Coding Guide', link: '/sop/vibe-coding-guide' }
         ]

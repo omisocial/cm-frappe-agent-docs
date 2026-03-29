@@ -50,22 +50,11 @@ Skill tự kích hoạt khi prompt chứa các từ khóa:
 "Lấy danh sách Sales Invoice status=Paid trên mysite.com"
 ```
 
-### 3. Agent tự động chọn
+### 3. Hiểu Cách Hoạt Động Của Frappe Kit
 
-Bạn không cần chỉ định agent — SKILL.md tự động routing:
+Bạn không cần chỉ định rõ Agent (ví dụ: Fixer, Frontend, Planner), hệ thống sẽ tự động bắt từ khóa từ Prompt của bạn. Tuy nhiên, để tận dụng **100% sức mạnh** của bộ Kit tránh sinh code Spaghetti, Frappe Team khuyên bạn đọc qua hướng dẫn chia nhỏ luồng việc dưới đây:
 
-| Bạn muốn... | Agent được chọn |
-|---|---|
-| Cài đặt Frappe từ đầu | **Installer** |
-| Thiết kế DocType | **DocType Architect** |
-| Viết Python API/logic | **Backend** |
-| Viết Client Script/UI | **Frontend** |
-| Customize ERPNext | **ERPNext Customizer** |
-| Phân tích lỗi (không sửa) | **Debugger** |
-| Sửa lỗi (có sửa code) | **Fixer** |
-| Tối ưu performance | **Performance** |
-| Thao tác remote site | **Remote Ops** |
-| Git/CI/CD | **GitHub Workflow** |
+👉 [**Đọc Mẹo Gọi Frappe Agent Chuẩn (Nguyên lý 7 Lớp)**](/sop/using-frappe-agents.md)
 
 ## Workflow Phát triển Chuẩn
 

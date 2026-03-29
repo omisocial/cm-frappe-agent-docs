@@ -10,6 +10,9 @@ hero:
       text: Bắt đầu Nhanh
       link: /getting-started
     - theme: alt
+      text: Hướng dẫn Gọi Agent
+      link: /sop/using-frappe-agents
+    - theme: alt
       text: Kiến trúc
       link: /architecture
 
