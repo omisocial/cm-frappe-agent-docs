@@ -12,6 +12,12 @@ export default defineConfig({
     ],
     sidebar: [
       {
+        text: 'Thực hành',
+        items: [
+          { text: 'Playbook (50 scenarios)', link: '/playbook' }
+        ]
+      },
+      {
         text: 'Bắt đầu',
         items: [
           { text: 'Tổng quan', link: '/' },
@@ -92,7 +98,15 @@ export default defineConfig({
         items: [
           { text: 'Hướng dẫn Gọi Ai Agent', link: '/sop/using-frappe-agents' },
           { text: 'Hướng dẫn Sử dụng', link: '/sop/user-guide' },
-          { text: 'Vibe Coding Guide', link: '/sop/vibe-coding-guide' }
+          { text: 'Vibe Coding Guide', link: '/sop/vibe-coding-guide' },
+          { text: 'Claude Code Update', link: '/sop/claude-update' }
+        ]
+      },
+      {
+        text: 'Workflows',
+        items: [
+          { text: 'Brainstorm Idea', link: '/workflows/cm-brainstorm-idea' },
+          { text: 'DocKit Engine', link: '/workflows/cm-dockit' }
         ]
       }
     ],
